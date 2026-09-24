@@ -19,3 +19,6 @@ jobs:
        run: |
         echo $GITHUB_SHA
         echo $GITHUB_REPOSITORY
+     - name: 아무나 못보는 값
+       run: |
+        echo ${{ secrets.MY_NAME}}
