@@ -3,11 +3,11 @@ name: GitHub Actions 실행시켜보기
 on:
   push:
       branches:
-        -main
+        - main
 jobs:
   My-Deploy-job:
     runs-on: ubuntu-latest
 
     steps:
-     -name: Hello Word 찍기
-     run: echo "Hello World"
+     - name: Hello Word 찍기
+       run: echo "Hello World"
