@@ -11,3 +11,7 @@ jobs:
     steps:
      - name: Hello Word 찍기
        run: echo "Hello World"
+     - name: 여러명령어 작성하기
+       run: |
+        echo "Good"
+        echo "Morning"
